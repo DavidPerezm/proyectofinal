@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <body>
+        <!-- Header -->
+        <header id="header-inner">
+          <div class="container">
+            <nav id="main-nav">
+              <img src="img/logo.png" alt="My Portfolio" id="logo" />
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de mi</a></li>
+                <li><a href="trabajo.html">Mis trabajos</a></li>
+                <li><a href="contacto.html" class="current">Contactame</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+    
+        <!-- Section A: Contact Form -->
+        <section id="contact-a" class="text-center py-3">
+          <div class="container">
+            <h2 class="section-title">Contactame</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Envianos la informacion de tu requerimiento</p>
+            <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+              <div class="text-fields">
+                <input
+                  type="text" class="text-input name-input" placeholder="Tu Nombre"
+                  name="name"
+                />
+                <input type="text" class="text-input subject-input"   placeholder="Asunto"  name="Subject"
+                />
+                <input
+                  type="email" class="text-input email-input" placeholder="Correo" name="email"
+                />
+                <input
+                  type="text" class="text-input phone-input" placeholder="Nuero Telefonico" name="phone"
+                />
+                <textarea
+                  class="text-input message-input" placeholder="Ingrese su mensaje" name="message"
+                    ></textarea>
+                <div class="my-2">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
+              </div>
+              <button type="submit" class="btn-dark">Enviar Ahora</button>
+            </form>
+          </div>
+        </section>
+    
+        <!-- Section B: Contact Info -->
+        <section id="contact-b" class="py-3 bg-dark">
+          <div class="container">
+            <div class="contact-info">
+              <div>
+                <i class="fas fa-envelope fa-2x"></i>
+                <h3>Email</h3>
+                <p>davidperezm1978@gmail.com</p>
+              </div>
+              <div>
+                <i class="fas fa-phone fa-2x"></i>
+                <h3>Telefono</h3>
+                <p>(666) 6666-66666</p>
+              </div>
+              <div>
+                <i class="fas fa-address-card fa-2x"></i>
+                <h3>Direccion</h3>
+                <p>Bogota Fontibon</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Section C: Tagline -->
+        <section id="contact-c" class="bg-main py-4">
+          <div class="container">
+            <h1>Es hora de empezar a crear tu proyecto</h1>
+          </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer id="main-footer">
+          <div class="footer-content container">
+            <p>Copyright &copy; 2022. Todos los Derechos Reservados</p>
+          <div class="social">
+            <div class="social">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+          </div>
+        </footer>
+    
+</body>
+</html>
